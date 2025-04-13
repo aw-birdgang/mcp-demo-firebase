@@ -1,0 +1,57 @@
+# ==========================================
+# ✅ Firebase Functions 프로젝트 (.gitignore)
+# ==========================================
+
+# Node dependencies
+node_modules/
+
+# TypeScript build output
+lib/
+dist/
+
+# Firebase runtime config (functions:config)
+.runtimeconfig.json
+
+# Local environment config
+.env
+.env.*.local
+
+# Firebase Emulators local data
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+firestore-debug.*.log
+firebase-export.json
+firestore.indexes.json
+firestore.rules.bak
+
+# Firebase Emulator state (optional)
+firestore_emulator.*
+storage_emulator.*
+auth_emulator.*
+
+# VS Code settings
+.vscode/
+
+#IntelliJ
+.idea
+
+# macOS metadata
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+Thumbs.db
+
+# Firebase hosting build (if using Flutter Web + Hosting)
+public/
+
+# Firebase CLI cache
+.firebase/
+
+# Functions logs (optional custom)
+logs/
