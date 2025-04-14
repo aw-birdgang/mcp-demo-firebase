@@ -14,3 +14,15 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+## build for firebase hosting deploy
+````
+./build_web_env.sh
+ex) flutter build web --dart-define=webApiKey=AIzaSyDxxxx --dart-define=webAppId=... ...
+````
+
+## build & run local
+````
+./run_web_with_env.sh
+````
