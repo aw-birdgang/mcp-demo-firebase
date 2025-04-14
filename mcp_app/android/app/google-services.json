@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "812344915961",
+    "firebase_url": "https://mcp-demo-d548a-default-rtdb.firebaseio.com",
+    "project_id": "mcp-demo-d548a",
+    "storage_bucket": "mcp-demo-d548a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812344915961:android:819338de2e2e30f8f32f28",
+        "android_client_info": {
+          "package_name": "com.example.mcp_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxI9Tf1_VXT0dWqmPlrAxB6EnbolR1dxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+# Flutter 관련
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+generated_plugin_registrant.dart
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+*.swp
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/ServiceDefinitions.json
+ios/Runner.xcworkspace/
+ios/Pods/
+ios/.symlinks/
+ios/.flutter-plugins
+ios/.flutter-plugins-dependencies
+ios/.dart_tool/
+Podfile.lock
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/build/
+android/app/build/
+android/captures/
+*.jks
+
+# Web
+web/.dart_tool/
+
+# Windows
+windows/build/
+windows/.vs/
+windows/flutter/ephemeral/
+
+# Linux
+linux/build/
+linux/flutter/ephemeral/
+
+# Common 시스템 파일
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+$RECYCLE.BIN/
+
+# 기타
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+*.pid
+*.seed
+
+# Firebase (옵션)
+.firebase/
+firebase.json
+
+# Coverage
+coverage/
